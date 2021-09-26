@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class=" col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <h1>ログイン</h1>
+      <%= form_with url: login_path do |f| %>
+        <div class="form-group">
+          <%= f.label :email %><br />
+          <%= f.email_field :email %>
+        </div>
+        <div class="form-group">
+          <%= f.label :password %><br />
+          <%= f.password_field :password %>
+        <div class="actions">
+          <%= f.submit "ログイン" %>
+        </div>
+      <% end %>
+      <div class='text-center'>
+        <a href="/users/new">登録ページへ</a>
+        <a href="#">パスワードをお忘れの方はこちら</a>
+      </div>
+    </div>
+  </div>
+</div>
