@@ -1,5 +1,4 @@
 class UserSessionsController < ApplicationController
-  skip_before_action :require_login, only: [:new, :create]
   
   def new
   end
@@ -10,7 +9,7 @@ class UserSessionsController < ApplicationController
     if @user
       redirect_back_or_to root_path
     else
-      render action: 'new'
+      render :new
     end
   end
 

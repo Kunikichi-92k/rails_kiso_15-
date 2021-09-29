@@ -2,31 +2,31 @@
   <div class="row">
     <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
       <h1>ユーザー登録</h1>
-      <form>
+      <%= form_with model: @user, local: true do |f| %>
         <div class="form-group">
-          <label for="user_last_name">Last name</label>
-          <input class="form-control" type="text" name="user[last_name]" id="user_last_name" />
+          <%= f.label :Last_name %>
+          <%= f.text_field :last_name, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <label for="user_first_name">First name</label>
-          <input class="form-control" type="text" name="user[first_name]" id="user_first_name" />
+          <%= f.label :First_name %>
+          <%= f.text_field :first_name, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <label for="user_email">Email</label>
-          <input class="form-control" type="email" name="user[email]" id="user_email" /> 
+          <%= f.label :Email %>
+          <%= f.text_field :email, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <label for="user_password">Password</label>
-          <input class="form-control" type="password" name="user[password]" id="user_password" />
+          <%= f.label :Password %>
+          <%= f.password_field :password, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <label for="user_password_confirmation">Password confirmation</label>
-          <input class="form-control" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+          <%= f.label :Password_confirmation %>
+          <%= f.password_field :password_confirmation, class: 'form-control' %>
         </div>
-        <input type="submit" name="commit" value="登録" class="btn btn-primary" data-disable-with="登録" />
-      </form>
+        <%= f.submit '登録', class: 'btn btn-primary' %>
+      <% end %>
       <div class='text-center'>
-        <a href="/login">ログインページへ</a>
+        <%= link_to 'ログインページへ', login_path %>
       </div>
     </div>
   </div>
