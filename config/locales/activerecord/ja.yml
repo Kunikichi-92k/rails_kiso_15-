@@ -1,13 +1,12 @@
 ja:
   activerecord:
     models:
-      user: ユーザー 
-      board: 掲示板
+      user: "ユーザー"
+      board: "掲示板"
     attributes:
-        user:
-          id: ID
-          first_name: 名前
-          last_name: 姓
-          email: メールアドレス
-          password: パスワード
-          password_confirmation: パスワード確認
+      user:
+        first_name: "名"
+        last_name: "姓"
+        email: "メールアドレス"
+        password: "パスワード"
+        password_confirmation: "パスワード確認"

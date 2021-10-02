@@ -4,23 +4,23 @@
       <h1><%= t '.title' %></h1>
       <%= form_with model: @user, local: true do |f| %>
         <div class="form-group">
-          <%= f.label :Last_name %>
+          <%= f.label :last_name %>
           <%= f.text_field :last_name, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <%= f.label :First_name %>
+          <%= f.label :first_name %>
           <%= f.text_field :first_name, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <%= f.label :Email %>
+          <%= f.label :email %>
           <%= f.text_field :email, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <%= f.label :Password %>
+          <%= f.label :password %>
           <%= f.password_field :password, class: 'form-control' %>
         </div>
         <div class="form-group">
-          <%= f.label :Password_confirmation %>
+          <%= f.label :password_confirmation %>
           <%= f.password_field :password_confirmation, class: 'form-control' %>
         </div>
         <%= f.submit (t 'defaults.register'), class: 'btn btn-primary' %>
