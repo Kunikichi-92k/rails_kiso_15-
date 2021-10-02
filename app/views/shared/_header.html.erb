@@ -30,7 +30,7 @@
             <%= image_tag 'sample.jpg', size: '40x40', class: 'rounded-circle mr15' %>
           </a>
           <div class='dropdown-menu dropdown-menu-right'>
-            <div class='dropdown-item'>らんてっく たろう</div>
+            <div class='dropdown-item'><%= current_user.decorate.full_name %></div>
             <div class='dropdown-divider'></div>
             <%= link_to 'プロフィール', '#', class: 'dropdown-item' %>
             <%= link_to (t 'defaults.logout'), logout_path, class: 'dropdown-item', method: :delete %>
