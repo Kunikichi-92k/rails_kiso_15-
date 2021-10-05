@@ -9,8 +9,6 @@
           </a>
         </h4>
         <div class='mr10 float-right'>
-          <a href="#"><%= icon 'fas', 'trash', class: 'pr-1' %></a>
-          <a href="#"><%= icon 'fa', 'pen' %></a>
           <%= link_to '#', id: 'button-edit-#{board.id}' do %>
           <%= icon 'fa', 'pen' %>
           <% end %>
@@ -20,14 +18,13 @@
       </div>
       <ul class="list-inline">
         <li class="list-inline-item">
-          <i class="far fa-user"></i>
           <%= icon 'far', 'user' %>
           <%= board.user.decorate.full_name %>
         </li>
         <li class="list-inline-item">
-          <i class="far fa-calendar">
-          </i> 2019/12/26 17:00
-          </li>
+          <%= icon 'far', 'calendar' %>
+          <%= l board.created_at, format: :long %>
+        </li>
       </ul>
       <p class="card-text"><%= board.body %></p>
     </div>
