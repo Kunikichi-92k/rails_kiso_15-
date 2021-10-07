@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  skip_before_action :require_login, only: [:new :create]
+  skip_before_action :require_login, only: [:new, :create]
   # GET /users
   # GET /users.json
   def index
