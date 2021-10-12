@@ -29,6 +29,7 @@
 # Ignore vendor
 /vendor
 /config/database.yml
+/public/uploads
 
 # Ignore sqlite3 files
 db/runteq_normal_development

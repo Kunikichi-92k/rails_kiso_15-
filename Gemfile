@@ -36,6 +36,8 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'font-awesome-sass', '5.12.0'
 gem 'jquery-rails'
 
+gem 'carrierwave', '2.0.2'
+
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'faker'
@@ -69,4 +71,3 @@ gem 'sorcery'
 gem 'pry-byebug'
 gem 'rails-i18n', '~> 5.1'
 gem 'draper'
-gem 'faker'
