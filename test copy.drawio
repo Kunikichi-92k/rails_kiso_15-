@@ -1,0 +1,121 @@
+<mxfile host="65bd71144e">
+    <diagram id="Amnthw8JVcnf3fUL5vqG" name="ページ1">
+        <mxGraphModel dx="763" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="71" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="50" width="670" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="71">
+                    <mxGeometry width="670" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;" vertex="1" parent="72">
+                    <mxGeometry width="52" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="やりたいこと" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="72">
+                    <mxGeometry x="52" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="HTTP動詞" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="72">
+                    <mxGeometry x="293" width="109" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="URI Patterm" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="72">
+                    <mxGeometry x="402" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Controller # Action" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="72">
+                    <mxGeometry x="536" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="40" width="670" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="78">
+                    <mxGeometry width="52" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="ユーザー登録ページを表示する（表示）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="78">
+                    <mxGeometry x="52" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="GET" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="78">
+                    <mxGeometry x="293" width="109" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="/users/new" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="78">
+                    <mxGeometry x="402" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="users#new" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="78">
+                    <mxGeometry x="536" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="80" width="670" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="84">
+                    <mxGeometry width="52" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="ユーザーを登録する（動作）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="84">
+                    <mxGeometry x="52" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="POST" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="84">
+                    <mxGeometry x="293" width="109" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="/users" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="84">
+                    <mxGeometry x="402" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="users#create" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="84">
+                    <mxGeometry x="536" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="120" width="670" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="90">
+                    <mxGeometry width="52" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="ログインページを表示する（表示）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="90">
+                    <mxGeometry x="52" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="GET" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="90">
+                    <mxGeometry x="293" width="109" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="/user_sessions/new" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="90">
+                    <mxGeometry x="402" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="user_sessions#new" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="90">
+                    <mxGeometry x="536" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="160" width="670" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="96">
+                    <mxGeometry width="52" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="ログインする（動作）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="96">
+                    <mxGeometry x="52" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="POST" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="96">
+                    <mxGeometry x="293" width="109" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="/user_sessions" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="96">
+                    <mxGeometry x="402" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="user_sessions#create" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="96">
+                    <mxGeometry x="536" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="71">
+                    <mxGeometry y="200" width="670" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="102">
+                    <mxGeometry width="52" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="ログアウトする（動作）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="102">
+                    <mxGeometry x="52" width="241" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="DELETE&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="102">
+                    <mxGeometry x="293" width="109" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="/logout" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="102">
+                    <mxGeometry x="402" width="134" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="user_sessions#destroy" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="102">
+                    <mxGeometry x="536" width="134" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
