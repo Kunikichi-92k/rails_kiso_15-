@@ -35,12 +35,18 @@ ja:
       no_result: "掲示板がありません。"
     new:
       title: "掲示板作成"
-    bookmarks:
-      title: "ブックマーク一覧"
     show:
       title: '掲示板詳細'
     edit:
       title: '掲示板編集'
+    bookmarks:
+      title: "ブックマーク一覧"
+      no_result: 'ブックマーク中の掲示板がありません。'
+  bookmarks:
+    create:
+      success: 'ブックマークしました'
+    destroy:
+      success: 'ブックマークを外しました'
   profiles:
     show:
       title: "プロフィール"
