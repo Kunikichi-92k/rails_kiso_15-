@@ -11,6 +11,8 @@ ja:
         email: "メールアドレス"
         password: "パスワード"
         password_confirmation: "パスワード確認"
+        full_name: '氏名'
+        avatar: 'アバター'
       board:
         title: 'タイトル'
         body: '本文'
