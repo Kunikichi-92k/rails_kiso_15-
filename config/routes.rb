@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   post 'login', to: 'user_sessions#create'
   delete 'logout', to: 'user_sessions#destroy'
 
-  resources :users, only: [:new, :create]
+  resources :users, only: %i[new create]
   resources :boards do
     resources :comments, only: %i[create destroy], shallow: true
     collection do
@@ -13,4 +13,5 @@ Rails.application.routes.draw do
     end
   end
   resources :bookmarks, only: %i[create destroy]
+  resource :profile, only: %i[show edit update]
 end
