@@ -6,6 +6,7 @@ ja:
     search_word: '検索ワード'
     edit: '編集'
     password_reset: 'パスワードリセット'
+    post: '投稿'
     message:
       require_login: "ログインしてください"
       created: "%{item}を作成しました"
@@ -14,7 +15,7 @@ ja:
       not_updated: "%{item}を更新できませんでした"
       deleted: "%{item}を削除しました"
       delete_confirm: "削除しますか？"
-    post: '投稿'
+      not_authorized: '権限がありません'
   users:
     new:
       title: "ユーザー登録"
@@ -66,3 +67,15 @@ ja:
     update:
       success: 'パスワードを変更しました'
       fail: 'パスワードの変更に失敗しました'
+  admin:
+    user_sessions:
+      new:
+        title: 'ログイン'
+      create:
+        success: 'ログインしました'
+        fail: 'ログインに失敗しました'
+      destroy:
+        success: 'ログアウトしました'
+    dashboards:
+      index:
+        title: 'ダッシュボード'
