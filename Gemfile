@@ -36,8 +36,16 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'font-awesome-sass', '5.12.0'
 gem 'jquery-rails'
 
+gem 'sorcery'
+gem 'pry-byebug'
+gem 'rails-i18n', '~> 5.1'
+gem 'draper'
+gem 'kaminari', '1.1.1'
+gem 'ransack'
+
 gem 'carrierwave', '2.0.2'
 gem 'config'
+gem 'enum_help'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
@@ -69,9 +77,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'sorcery'
-gem 'pry-byebug'
-gem 'rails-i18n', '~> 5.1'
-gem 'draper'
-gem 'kaminari', '1.1.1'
-gem 'ransack'

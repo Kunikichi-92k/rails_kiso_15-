@@ -3,10 +3,13 @@ ja:
     login: "ログイン"
     register: "登録"
     logout: "ログアウト"
-    search_word: '検索ワード'
-    edit: '編集'
-    password_reset: 'パスワードリセット'
     post: '投稿'
+    search_word: '検索ワード'
+    show: '詳細'
+    edit: '編集'
+    delete: '削除'
+    password_reset: 'パスワードリセット'
+    unspecified: '指定なし'
     message:
       require_login: "ログインしてください"
       created: "%{item}を作成しました"
@@ -79,3 +82,21 @@ ja:
     dashboards:
       index:
         title: 'ダッシュボード'
+    users:
+      index:
+        title: 'ユーザー一覧'
+      show:
+        title: 'ユーザー詳細'
+      edit:
+        title: 'ユーザー編集'
+    boards:
+      index:
+        title: '掲示板一覧'
+      show:
+        title: '掲示板詳細'
+      edit:
+        title: '掲示板編集'
+        board_image: 'サムネイル'
+        user: '作成者'
+      comment:
+        body: 'コメント'
