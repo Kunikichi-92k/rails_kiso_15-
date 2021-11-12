@@ -12,8 +12,8 @@
     <%= l board.created_at, format: :long %>
   </td>
   <td>
-    <%= link_to t('defaults.show'), admin_user_path(board), class: 'btn btn-info' %>
-    <%= link_to t('defaults.edit'), edit_admin_user_path(board), class: 'btn btn-success' %>
-    <%= link_to t('defaults.delete'), admin_user_path(board), method: :delete, data: { confirm: t('defaults.message.delete_confirm') }, class: 'btn btn-danger' %>
+    <%= link_to t('defaults.show'), admin_board_path(board), class: 'btn btn-info' %>
+    <%= link_to t('defaults.edit'), edit_admin_board_path(board), class: 'btn btn-success' %>
+    <%= link_to t('defaults.delete'), admin_board_path(board), method: :delete, data: { confirm: t('defaults.message.delete_confirm') }, class: 'btn btn-danger' %>
   </td>
 </tr>
